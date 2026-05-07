@@ -17,25 +17,32 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #ffffff;
   color: #0e1014;
-  margin: 30px 100px;
+  margin: 20px 30px;
 }
 
 h1 {
-  font-size: 50px;
-  margin-bottom: 45px;
-}
-
-h2 {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
+h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
 p {
-  margin-bottom: 25px;
+  font-size: 12px;
+  margin-bottom: 15px;
   text-align: justify;
 }
 
 ul {
+  font-size: 12px;
   margin-left: 30px;
   margin-bottom: 25px;
 }
@@ -52,5 +59,45 @@ ul {
     button {
       display: none;
     }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .resume {
+    max-width: 648px;
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cv1 {
+    max-width: 900px;
+    padding: 20px;
+  }
+  .cv1 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .cv1 h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .cv1 h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+
+  ul {
+    font-size: 14px;
+    margin-left: 30px;
+    margin-bottom: 25px;
   }
 }
