@@ -47,6 +47,36 @@ ul {
   margin-bottom: 25px;
 }
 
+.tech .tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 15px;
+  width: 100%;
+  align-content: center;
+  ul {
+    margin-left: 20px;
+  }
+}
+
+.button {
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 40px;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: #323232;
+  } 
+}
+
 @media print {
   button {
     display: none;

@@ -80,22 +80,7 @@ body {
     background-color: #555;
   }
 }
-/* .resume a {
-  display: inline-block;
-  width:max-content;
-  padding: 12px;
-  background-color: #667eea;
-  color: white;
-  text-decoration: none;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-    transition: all 0.3s ease-in-out;
-  &:hover {
-    background-color: #3657e7;
-  }
-} */
+
 @media screen and (min-width: 768px) {
   .resume {
     max-width: 648px;
